@@ -1,0 +1,53 @@
+build vnet
+  + Number of params: 179419
+  + Cuda enabled= True
+loading training set
+number of classes= 1.0
+loading test set
+/home/nady/cas/brats/code/brats/vnet.py:134: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  out = self.softmax(out)
+Train Epoch: 0.00 [4/170 (0%)]	Loss: 0.6260	Error: 19.234	 Dice: 0.080080
+Train Epoch: 0.02 [8/170 (2%)]	Loss: 0.6618	Error: 33.637	 Dice: 0.030266
+Train Epoch: 0.05 [12/170 (5%)]	Loss: 0.6084	Error: 19.523	 Dice: 0.078637
+Train Epoch: 0.07 [16/170 (7%)]	Loss: 0.6290	Error: 29.046	 Dice: 0.056253
+Train Epoch: 0.09 [20/170 (9%)]	Loss: 0.6222	Error: 21.861	 Dice: 0.068975
+Train Epoch: 0.12 [24/170 (12%)]	Loss: 0.6071	Error: 23.294	 Dice: 0.111618
+Train Epoch: 0.14 [28/170 (14%)]	Loss: 0.6035	Error: 10.337	 Dice: 0.183508
+Train Epoch: 0.16 [32/170 (16%)]	Loss: 0.6216	Error: 12.445	 Dice: 0.116442
+Train Epoch: 0.19 [36/170 (19%)]	Loss: 0.6120	Error: 19.157	 Dice: 0.121829
+Train Epoch: 0.21 [40/170 (21%)]	Loss: 0.6133	Error: 16.380	 Dice: 0.143021
+Train Epoch: 0.23 [44/170 (23%)]	Loss: 0.5890	Error: 15.699	 Dice: 0.179217
+Train Epoch: 0.26 [48/170 (26%)]	Loss: 0.5598	Error: 15.428	 Dice: 0.143540
+Train Epoch: 0.28 [52/170 (28%)]	Loss: 0.6087	Error: 15.540	 Dice: 0.101129
+Train Epoch: 0.30 [56/170 (30%)]	Loss: 0.5877	Error: 16.930	 Dice: 0.092708
+Train Epoch: 0.33 [60/170 (33%)]	Loss: 0.5712	Error: 11.886	 Dice: 0.232116
+Train Epoch: 0.35 [64/170 (35%)]	Loss: 0.6175	Error: 8.288	 Dice: 0.206475
+Train Epoch: 0.37 [68/170 (37%)]	Loss: 0.5882	Error: 11.505	 Dice: 0.149783
+Train Epoch: 0.40 [72/170 (40%)]	Loss: 0.6260	Error: 15.552	 Dice: 0.109735
+Train Epoch: 0.42 [76/170 (42%)]	Loss: 0.5904	Error: 10.447	 Dice: 0.150740
+Train Epoch: 0.44 [80/170 (44%)]	Loss: 0.5739	Error: 15.669	 Dice: 0.148216
+Train Epoch: 0.47 [84/170 (47%)]	Loss: 0.5469	Error: 15.931	 Dice: 0.152729
+Train Epoch: 0.49 [88/170 (49%)]	Loss: 0.5586	Error: 13.018	 Dice: 0.135277
+Train Epoch: 0.51 [92/170 (51%)]	Loss: 0.5500	Error: 16.175	 Dice: 0.099920
+Train Epoch: 0.53 [96/170 (53%)]	Loss: 0.5934	Error: 9.242	 Dice: 0.134942
+Train Epoch: 0.56 [100/170 (56%)]	Loss: 0.5785	Error: 15.998	 Dice: 0.095507
+Train Epoch: 0.58 [104/170 (58%)]	Loss: 0.5693	Error: 13.473	 Dice: 0.135996
+Train Epoch: 0.60 [108/170 (60%)]	Loss: 0.5607	Error: 15.621	 Dice: 0.123689
+Train Epoch: 0.63 [112/170 (63%)]	Loss: 0.5391	Error: 13.179	 Dice: 0.209231
+Train Epoch: 0.65 [116/170 (65%)]	Loss: 0.5368	Error: 14.050	 Dice: 0.114704
+Train Epoch: 0.67 [120/170 (67%)]	Loss: 0.5754	Error: 9.943	 Dice: 0.230549
+Train Epoch: 0.70 [124/170 (70%)]	Loss: 0.5762	Error: 13.039	 Dice: 0.108053
+Train Epoch: 0.72 [128/170 (72%)]	Loss: 0.5485	Error: 13.190	 Dice: 0.084931
+Train Epoch: 0.74 [132/170 (74%)]	Loss: 0.5953	Error: 12.729	 Dice: 0.085740
+Train Epoch: 0.77 [136/170 (77%)]	Loss: 0.5789	Error: 11.140	 Dice: 0.144735
+Train Epoch: 0.79 [140/170 (79%)]	Loss: 0.5857	Error: 11.148	 Dice: 0.116601
+Train Epoch: 0.81 [144/170 (81%)]	Loss: 0.5258	Error: 14.403	 Dice: 0.095805
+Train Epoch: 0.84 [148/170 (84%)]	Loss: 0.5226	Error: 10.590	 Dice: 0.164350
+Train Epoch: 0.86 [152/170 (86%)]	Loss: 0.5701	Error: 12.637	 Dice: 0.111315
+Train Epoch: 0.88 [156/170 (88%)]	Loss: 0.5275	Error: 9.659	 Dice: 0.196217
+Train Epoch: 0.91 [160/170 (91%)]	Loss: 0.5194	Error: 12.985	 Dice: 0.108794
+Train Epoch: 0.93 [164/170 (93%)]	Loss: 0.4958	Error: 10.364	 Dice: 0.218254
+Train Epoch: 0.95 [168/170 (95%)]	Loss: 0.5003	Error: 10.916	 Dice: 0.198906
+Train Epoch: 0.98 [170/170 (98%)]	Loss: 0.5556	Error: 7.762	 Dice: 0.103949
+
+Test set: Average loss: 0.5126, Error: 7809285/77772800 (10.041%) Dice: 0.161060
